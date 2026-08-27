@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache e bytecode do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Empacotamento
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Logs e saidas de diagnostico
+*.log
+
+# Scripts temporarios de depuracao na raiz (nao pegar __init__.py dos pacotes)
+/_*.py
+!/__init__.py
+
+# Preferencias e favoritos (ficam em %APPDATA%, mas nunca versionar se aparecerem aqui)
+config.json
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store

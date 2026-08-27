@@ -1,0 +1,5 @@
+pymobiledevice3>=11.0,<12
+customtkinter>=6.0,<7
+tkintermapview>=1.30
+Pillow>=10.0.0
+requests>=2.31.0
